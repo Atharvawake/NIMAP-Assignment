@@ -1,1 +1,12 @@
 
+
+
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s http://localhost:8000/health)",
+      "Bash(taskkill /F /IM python.exe)",
+      "Bash(findstr /i \"uvicorn python\")"
+    ]
+  }
+}
